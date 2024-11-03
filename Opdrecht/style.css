@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fffffff1;
+    
+}
+
+
+/* start navbar */
+header{
+   
+    background-color: #000000;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    position: fixed;
+}
+
+.logo img{
+    display: flex;
+    width: 30%;
+    
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+.navbar li a{  
+    color: #fffffff1;
+    margin-right:20px ;
+    padding: .6rem 1.5rem;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+.navbar li a:hover{ 
+    color: blue;
+}
+.navbar .contact-style{
+ background-color: blue;
+ border: 2px solid blue;
+  
+
+}
+.navbar .contact-style:hover{
+   background-color: black;
+   color: #ffffffc5;
+   
+}
+
+/* end navbar */
+
+                /* start home */
+section{
+    
+    min-height: 100vh;
+    padding: 2rem 9%;
+    background-color: #000000; 
+    width: 100%;
+    
+}
+span{
+    color: blue;
+    
+}
+
+.Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content{
+   display: flex;
+   padding: 50px;
+   flex-direction: column;
+   font-weight: 500;
+   
+}
+
+.content h2{
+    font-size: 40PX;
+}
+
+.content .baan {
+    font-size: 25PX;
+    margin:20px 30px;
+
+}
+
+.content p{
+    margin-top: 30px;
+    font-size: 20PX;
+      
+}
+.content .commant{
+    margin-left: 150px;
+}
+.content ul{
+    display: flex;
+    list-style-type: none;
+    margin: 50px;
+    align-items: center;
+}
+
+.content ul li{
+  display: flex;
+  margin:50px 20px;
+  padding: .6rem 0.3rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 255, 0.679);
+  
+
+}
+.content .numper{
+    
+    padding: 9px 15px;
+    font-size: x-large;
+}
+
+
+    /* mijn foto */
+
+
+.imag{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+}
+.imag img{
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 255, 0.559);
+    
+}
+/* end home */
